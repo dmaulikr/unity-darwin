@@ -13,10 +13,20 @@ public class PseudoCode : MonoBehaviour {
      * create  walls
      * make walls collidable.
      * 
-     * Get all sprites to move randomly around play area.
+     * Make a sprite move randomly.
+     * What does this include?
+     * 1. Force to push sprite
+     * 2. random change in direction (x,y)
+     * 
+     * 
+     * Make all sprites to move randomly around play area.
+     * 
      */
 
     /* DONE LIST
+     * 
+     * Make sprites collidable
+     * 
      * create floor background
      * make camera follow player
      * control player with keyboard
