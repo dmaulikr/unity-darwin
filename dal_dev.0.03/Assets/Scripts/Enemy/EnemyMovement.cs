@@ -18,18 +18,6 @@ public class EnemyMovement : MonoBehaviour
        // nav = GetComponent <UnityEngine.AI.NavMeshAgent> ();
     }
 
-    //void FreeRoam()
-    //{
-    //    {
-    //        Vector2 randomDirection = Random.insideUnitSphere * roamRadius;
-    //        randomDirection += transform.position;
-    //        UnityEngine.AI.NavMeshHit hit;
-    //        UnityEngine.AI.NavMesh.SamplePosition(randomDirection, out hit, roamRadius, 1);
-    //        Vector2 finalPosition = hit.position;
-    //        _nav.destination = finalPosition;
-    //    }
-    //}
-
 
     void Update ()
     {

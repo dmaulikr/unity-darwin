@@ -10,24 +10,28 @@ public class PseudoCode : MonoBehaviour {
      */
 
     /* TODO LIST
-     * create  walls
-     * make walls collidable.
+     * v0.04 create  walls
+     * v0.05 make walls collidable.
      * 
-     * Make a sprite move randomly.
-     * What does this include?
-     * 1. Force to push sprite
-     * 2. random change in direction (x,y)
+     * v0.06 npc characters react to each other
+     * DONE v0.06.1 npc chases other npc 
+     * v0.06.2 npc flees from other npc
+     * v0.06.3 chase/flee defined: carn > herb > plant > water > bacteria > carn
+     * v0.06.4 npc of same type are attracted to each other
      * 
-     * Vector3 and NavMeshAngent are needed for AI and random movement.
-     * 2d Unity has some compatibility problems with NavMeshAgent
-     * Game must be rebuilt upon Unity 3d.
+     * v0.07 player chooses character
+     * v0.07.1 can choose from carn, herb, plant, water, or bacteria
      * 
-     * Make all sprites to move randomly around play area.
-     * 
+     * v0.08 Random movement needs to use addforce and not setdestination,
+     *          in the same manner as PlayerMovement.cs
      */
 
     /* DONE LIST
      * 
+     * Migrate from 2d to 3d
+     * 
+     * Make a sprite move randomly.
+     * Make all sprites to move randomly around play area.
      * Make sprites collidable
      * 
      * create floor background
