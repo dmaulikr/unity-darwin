@@ -31,6 +31,8 @@ public class PseudoCode : MonoBehaviour {
      *  v0.09.3 contact same species = spawn
      *      v0.09.3.1 create spawn nests
      *      v0.09.3.2 spawn from each nest every 10 seconds or so
+     *  v0.09.5 Only 3 characters: predator, prey and mate
+     *  v0.09.6 remove mountains as nests
      * 
      * v0.10 FIX BUG: NPC move to wall and then get stuck there
      *  v0.10.1 find resolution
