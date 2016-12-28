@@ -10,43 +10,75 @@ public class PseudoCode : MonoBehaviour {
      */
 
     /* TODO LIST
-     * v0.04 create  walls
-     * v0.05 make walls collidable.
      * 
-     * v0.06 npc characters react to each other
-     * v0.06.2 npc flees from other npc
-     * v0.06.3 chase/flee defined: carn > herb > plant > water > bacteria > carn
-     * v0.06.4 npc of same type are attracted to each other
+     * <----------------------------------------------------->
+     * <----------------------------------------------------->
+     * ||                                                   ||
+     * ||   CURRENTLY WORKING ON:                           ||
+     * ||   v0.07.8 health for all characters               ||
+     * ||                                                   ||
+     * <----------------------------------------------------->
+     * <----------------------------------------------------->
+     *  
+     *     * v0.07 MINIMUM VIABLE PRODUCT
+     *  v0.07.1 player can choose from 3 classes
+     *  v0.07.4 must eat "prey" to survive 
+     *  v0.07.5 health diminishes from not eating as in starvation
+     *  v0.07.6 health diminishes when being eaten by "predator"  
+     *  v0.07.7 health diminishes when reproducing
+     *  v0.07.8 health increases from eating "prey"
+     *  v0.07.9 health for all characters
+     *  
+     *         
+     *  
      * 
-     * v0.07 player chooses character
-     * v0.07.1 can choose from carn, herb, plant, water, or bacteria
+     * v0.12 shrink size of game play area
      * 
-     * v0.08 Random movement needs to use addforce and not setdestination,
-     *          in the same manner as PlayerMovement.cs
-     *          
-     * v0.09 Simplifly game & reduce memory usage
-     *  DONE: Versions 0.09.1, 0.09.4
-     *  v0.09.2 contact predator = dead
-     *      v0.09.2.1 Tutorial: 
-     *  v0.09.3 contact same species = spawn
-     *      v0.09.3.1 create spawn nests
-     *      v0.09.3.2 spawn from each nest every 10 seconds or so
-     *  v0.09.5 Only 3 characters: predator, prey and mate
-     *  v0.09.6 remove mountains as nests
+     * v0.13 NPC's are used as real players
+     *      v0.13.5 Attach random user names to NPC's
+     *      v0.13.6 Fictitous leader board
      * 
-     * v0.10 FIX BUG: NPC move to wall and then get stuck there
-     *  v0.10.1 find resolution
+     * v0.14 Change speed to be comparible to other games
+     * 
+     * v0.16
+     * v0.17
+     * v0.18
+     * v0.19
+     * v0.20
+     * v0.21
+     * 
      *  
      */
 
 
 
-    /* DONE LIST
+    /* COMPLETED LIST
      * 
-     * v0.09.1 random movement for all characters
-     * v0.09.4 remove other interactions
+     *      v0.07.1a Class   I: Mr. Tooth COMPLETE(Using Carnvivore Prefab)
+     *      v0.07.1b Class  II: Cute and Fluffy COMPLETE(Using Herbivore Prefab)
+     *      v0.07.1c Class III: Vulgar Virus COMPLETE(Using MovingPlant Prefab)
+     *  v0.07.2 class 1 > eats class 2 > eats class 3 > eats class 1 COMPLETED(Using Predator Collision) 
+     *  v0.07.3 characters of same class reproduce COMPLETED(Using Reproduction)
      * 
-     * v0.06.1 npc chases other npc 
+     * v0.11 Replace v0.06 && v0.09 with less costly algorithm
+     *          v0.11.02.c collide predator = dead     
+     *          
+     *  v0.10 FIX BUG: NPC move to wall and then get stuck there
+     *  v0.10.1 find resolution
+     *  
+     * v0.08 Random movement uses navmesh AI
+     * 
+     * v0.13.4 NPC's do not react to each other
+     *  
+     * v0.15 Test resizing predator *2, *4 and test rezing prey /2, /4
+     * 
+     * v0.11.02.a All elements of v0.06 are elminated   
+     * v0.11.02.b random movement for all characters
+     * v0.13.1 Random movement 
+     * v0.13.2 Random amount of time moving in a direction
+     *          
+     * v0.04 create  walls
+     * v0.05 make walls collidable.
      * 
      * Migrate from 2d to 3d
      * 
