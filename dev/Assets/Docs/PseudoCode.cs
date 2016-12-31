@@ -20,19 +20,11 @@ public class PseudoCode : MonoBehaviour {
      * <----------------------------------------------------->
      * <----------------------------------------------------->
      *  
-     *     * v0.07 MINIMUM VIABLE PRODUCT
-     *  v0.07.1 player can choose from 3 classes
-     *  v0.07.4 must eat "prey" to survive 
-     *  v0.07.5 health diminishes from not eating as in starvation
-     *  v0.07.6 health diminishes when being eaten by "predator"  
-     *  v0.07.7 health diminishes when reproducing
-     *  v0.07.8 health increases from eating "prey"
-     *  v0.07.9 health for all characters
+     *  v0.07 MINIMUM VIABLE PRODUCT
+     *      v0.07.1 player can choose from 3 classes
+     *      v0.07.9 health for all characters
      *  
-     *         
-     *  
-     * 
-     * v0.12 shrink size of game play area
+     * v0.12 test for appropriate size of game play area
      * 
      * v0.13 NPC's are used as real players
      *      v0.13.5 Attach random user names to NPC's
@@ -40,7 +32,11 @@ public class PseudoCode : MonoBehaviour {
      * 
      * v0.14 Change speed to be comparible to other games
      * 
-     * v0.16
+     * v0.16 Multiplayer Capacity
+     *      v0.16.1 Research use of websockets In unity
+     *      v0.16.2 Implement stand alone websocket functionality
+     *      v0.16.3 Add stand alone websocket to game
+     * 
      * v0.17
      * v0.18
      * v0.19
@@ -59,7 +55,15 @@ public class PseudoCode : MonoBehaviour {
      *      v0.07.1c Class III: Vulgar Virus COMPLETE(Using MovingPlant Prefab)
      *  v0.07.2 class 1 > eats class 2 > eats class 3 > eats class 1 COMPLETED(Using Predator Collision) 
      *  v0.07.3 characters of same class reproduce COMPLETED(Using Reproduction)
-     * 
+     *  
+     *  
+     *  //REMOVED FROM VERSION 7    
+     *      v0.07.4 must eat "prey" to survive (predator class)   
+     *      v0.07.5 health diminishes from not eating as in starvation
+     *      v0.07.6 health diminishes when being eaten by "predator"  
+     *      v0.07.7 health diminishes when reproducing
+     *      v0.07.8 health increases from eating "prey"
+     *  
      * v0.11 Replace v0.06 && v0.09 with less costly algorithm
      *          v0.11.02.c collide predator = dead     
      *          

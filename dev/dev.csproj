@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Docs\PseudoCode.cs" />
+    <Compile Include="Assets\Scripts\Actions\Behaviors.cs" />
     <Compile Include="Assets\Scripts\Actions\LifeFormManager.cs" />
     <Compile Include="Assets\Scripts\Actions\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Actions\PredatorCollision.cs" />

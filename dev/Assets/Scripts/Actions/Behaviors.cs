@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Reproduction : MonoBehaviour
-{
+public class Behaviors : MonoBehaviour {
+
     public float timeUntilBirth = 10.0f;
     float timer;
     public string mate;
     public GameObject newBorn;
     public Vector3 babyNest;
     bool mateInRange;
+    public string player;
 
     private GameObject[] totalPrefabs;
     int count;
@@ -19,8 +20,9 @@ public class Reproduction : MonoBehaviour
     void Start()
     {
         totalPrefabs = GameObject.FindGameObjectsWithTag(mate);
-        
     }
+
+ 
 
     void OnTriggerEnter(Collider other)
     {
@@ -33,6 +35,12 @@ public class Reproduction : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        if (other.gameObject.tag == player)
+        {
+            Destroy(gameObject);
+        }
+
     }
 
     void OnTriggerExit(Collider other)
@@ -58,7 +66,7 @@ public class Reproduction : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (gameObject.transform.position.y <= 0)
+        if (gameObject.transform.position.y <= 0.1)
         {
             Destroy(gameObject);
         }
