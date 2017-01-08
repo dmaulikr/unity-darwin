@@ -15,7 +15,7 @@ public class PseudoCode : MonoBehaviour {
      * <----------------------------------------------------->
      * ||                                                   ||
      * ||   CURRENTLY WORKING ON:                           ||
-     * ||   v0.07.8 health for all characters               ||
+     * ||   v0.07.1 player can choose from 3 classes        ||
      * ||                                                   ||
      * <----------------------------------------------------->
      * <----------------------------------------------------->

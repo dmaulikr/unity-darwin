@@ -52,9 +52,6 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -69,9 +66,6 @@
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
@@ -93,9 +87,7 @@
     <Compile Include="Assets\Docs\PseudoCode.cs" />
     <Compile Include="Assets\Scripts\Actions\AttackPrey.cs" />
     <Compile Include="Assets\Scripts\Actions\Behaviors.cs" />
-    <Compile Include="Assets\Scripts\Actions\ButtonChoose.cs" />
     <Compile Include="Assets\Scripts\Actions\CameraController.cs" />
-    <Compile Include="Assets\Scripts\Actions\ChooseCharacter.cs" />
     <Compile Include="Assets\Scripts\Actions\Health.cs" />
     <Compile Include="Assets\Scripts\Actions\LifeFormManager.cs" />
     <Compile Include="Assets\Scripts\Actions\Movement.cs" />
@@ -103,6 +95,7 @@
     <Compile Include="Assets\Scripts\Actions\PredatorCollision.cs" />
     <Compile Include="Assets\Scripts\Actions\RandomMovement.cs" />
     <Compile Include="Assets\Scripts\Actions\Reproduction.cs" />
+    <Compile Include="Assets\Scripts\Actions\SelectCharacter.cs" />
     <Compile Include="Assets\Scripts\Characters\ClassOne.cs" />
     <Compile Include="Assets\Scripts\Characters\ClassThree.cs" />
     <Compile Include="Assets\Scripts\Characters\ClassTwo.cs" />
