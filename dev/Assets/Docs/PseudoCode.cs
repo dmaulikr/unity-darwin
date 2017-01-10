@@ -15,13 +15,12 @@ public class PseudoCode : MonoBehaviour {
      * <----------------------------------------------------->
      * ||                                                   ||
      * ||   CURRENTLY WORKING ON:                           ||
-     * ||   v0.07.1 player can choose from 3 classes        ||
+     * ||     v0.07.9 health for all characters             ||
      * ||                                                   ||
      * <----------------------------------------------------->
      * <----------------------------------------------------->
      *  
      *  v0.07 MINIMUM VIABLE PRODUCT
-     *      v0.07.1 player can choose from 3 classes
      *      v0.07.9 health for all characters
      *  
      * v0.12 test for appropriate size of game play area
@@ -37,7 +36,28 @@ public class PseudoCode : MonoBehaviour {
      *      v0.16.2 Implement stand alone websocket functionality
      *      v0.16.3 Add stand alone websocket to game
      * 
-     * v0.17
+     * v0.17 User Selection of Music
+     *  v0.17.01 Game Music
+     *  v0.17.02 Funk
+     *  v0.17.03 Classic Rock
+     *  v0.17.04 metal
+     *  v0.17.05 country
+     *  v0.17.06 classical
+     *  v0.17.07 easy listening
+     *  v0.17.08 hip hop
+     *  v0.17.09 electronic
+     *  v0.17.10 pop
+     *  v0.17.11 blues
+     *  v0.17.12 punk
+     *  v0.17.13 opera
+     *  v0.17.14 R&B/Soul
+     *  v0.17.15 dance
+     *  v0.17.16 Reggae
+     *  v0.17.17 World Beats
+     *  v0.17.18 Ambient
+     *  v0.17.19 Percussion
+     *  v0.17.20 Abstract
+     * 
      * v0.18
      * v0.19
      * v0.20
@@ -50,11 +70,13 @@ public class PseudoCode : MonoBehaviour {
 
     /* COMPLETED LIST
      * 
+     *      v0.07.1 player can choose from 3 classes
      *      v0.07.1a Class   I: Mr. Tooth COMPLETE(Using Carnvivore Prefab)
      *      v0.07.1b Class  II: Cute and Fluffy COMPLETE(Using Herbivore Prefab)
      *      v0.07.1c Class III: Vulgar Virus COMPLETE(Using MovingPlant Prefab)
      *  v0.07.2 class 1 > eats class 2 > eats class 3 > eats class 1 COMPLETED(Using Predator Collision) 
      *  v0.07.3 characters of same class reproduce COMPLETED(Using Reproduction)
+     *  
      *  
      *  
      *  //REMOVED FROM VERSION 7    
