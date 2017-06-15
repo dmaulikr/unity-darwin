@@ -10,10 +10,10 @@ public class SelectCharacter : MonoBehaviour
 
     void OnMouseOver()
     {
-        Debug.Log("hovering object");
+        //Debug.Log("hovering object");
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Pressed left click.");
+            //Debug.Log("Pressed left click.");
 
             Object.DontDestroyOnLoad(this.gameObject);
             StartGame();

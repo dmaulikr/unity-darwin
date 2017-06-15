@@ -29,6 +29,11 @@ public class Behaviors : MonoBehaviour {
         if (other.gameObject.tag == mate)
         {
             mateInRange = true;
+
+            if (gameObject.tag == "Carnivore")
+            {
+                Debug.Log("carnivore mate is in range");
+            }
         }
 
         if (other.gameObject.tag == predator)
@@ -64,11 +69,22 @@ public class Behaviors : MonoBehaviour {
         if (count >= 50)
         {
             Destroy(gameObject);
+
+            if (gameObject.tag == "Carnivore")
+            {
+                Debug.Log("carnivore more then 50");
+            }           
         }
 
-        if (gameObject.transform.position.y <= 0.1)
+        if (gameObject.transform.position.y <= -0.5)
         {
             Destroy(gameObject);
+
+            if (gameObject.tag == "Carnivore")
+            {
+                Debug.Log("carnivore less then 0.1");
+            }
+            
         }
     }
 
