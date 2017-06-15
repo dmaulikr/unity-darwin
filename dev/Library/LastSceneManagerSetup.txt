@@ -2,3 +2,6 @@ sceneSetups:
 - path: Assets/Scenes/ChooseCharacter.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/Scenes/PetriDish.unity
+  isLoaded: 0
+  isActive: 0
